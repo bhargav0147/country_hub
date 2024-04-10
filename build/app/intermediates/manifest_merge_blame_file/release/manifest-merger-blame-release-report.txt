@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.countryhub.kk"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\9633dd268796e0d2ec7a672408315bd7\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+14        android:name="com.countryhub.kk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\9633dd268796e0d2ec7a672408315bd7\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\9633dd268796e0d2ec7a672408315bd7\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.countryhub.kk.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\9633dd268796e0d2ec7a672408315bd7\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\9633dd268796e0d2ec7a672408315bd7\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:7:5-61:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.10.1] C:\Users\Lenovo\.gradle\caches\transforms-3\9633dd268796e0d2ec7a672408315bd7\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:10:9-43
+22        android:label="Country Hub"
+22-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:8:9-36
+23        android:requestLegacyExternalStorage="true" >
+23-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:11:9-52
+24        <activity
+24-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:13:9-51:20
+25            android:name="com.countryhub.kk.MainActivity"
+25-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:14:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:18:13-163
+27            android:exported="true"
+27-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:15:13-36
+28            android:hardwareAccelerated="true"
+28-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:19:13-47
+29            android:launchMode="singleTop"
+29-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:16:13-43
+30            android:theme="@style/LaunchTheme"
+30-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:17:13-47
+31            android:windowSoftInputMode="adjustResize" >
+31-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:20:13-55
+32
+33            <!--
+34                 Specifies an Android theme to apply to this Activity as soon as
+35                 the Android process has started. This theme is visible to the user
+36                 while the Flutter UI initializes. After that, this theme continues
+37                 to determine the Window background behind the Flutter UI.
+38            -->
+39            <meta-data
+39-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:25:13-28:17
+40                android:name="io.flutter.embedding.android.NormalTheme"
+40-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:26:15-70
+41                android:resource="@style/NormalTheme" />
+41-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:27:15-52
+42            <!--
+43                 Displays an Android View that continues showing the launch screen
+44                 Drawable until Flutter paints its first frame, then this splash
+45                 screen fades out. A splash screen is useful to avoid any visual
+46                 gap between the end of Android's launch screen and the painting of
+47                 Flutter's first frame.
+48            -->
+49            <meta-data
+49-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:34:13-37:17
+50                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+50-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:35:15-79
+51                android:resource="@drawable/launch_background" />
+51-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:36:15-61
+52
+53            <intent-filter>
+53-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:38:13-41:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:39:17-68
+54-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:39:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:40:17-76
+56-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:40:27-74
+57            </intent-filter>
+58            <!-- Deep linking -->
+59            <meta-data
+59-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:43:13-90
+60                android:name="flutter_deeplinking_enabled"
+60-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:43:24-66
+61                android:value="true" />
+61-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:43:67-87
+62
+63            <intent-filter android:autoVerify="true" >
+63-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:44:13-49:29
+63-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:44:28-53
+64                <action android:name="android.intent.action.VIEW" />
+64-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:45:17-69
+64-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:45:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:46:17-76
+66-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:46:27-73
+67                <category android:name="android.intent.category.BROWSABLE" />
+67-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:47:17-78
+67-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:47:27-75
+68
+69                <data
+69-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:48:17-83
+70                    android:host="countryhub.com"
+70-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:48:51-80
+71                    android:scheme="countryhub" />
+71-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:48:23-50
+72            </intent-filter>
+73        </activity>
+74
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:55:9-57:33
+80            android:name="flutterEmbedding"
+80-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:56:13-44
+81            android:value="2" />
+81-->D:\personal\country_hub\android\app\src\main\AndroidManifest.xml:57:13-30
+82
+83        <activity
+83-->[:url_launcher_android] D:\personal\country_hub\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+84            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+84-->[:url_launcher_android] D:\personal\country_hub\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+85            android:exported="false"
+85-->[:url_launcher_android] D:\personal\country_hub\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+86            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+86-->[:url_launcher_android] D:\personal\country_hub\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\9169574be361bd6b4dbbf6872ca0379c\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\9169574be361bd6b4dbbf6872ca0379c\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\9169574be361bd6b4dbbf6872ca0379c\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\9169574be361bd6b4dbbf6872ca0379c\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\9169574be361bd6b4dbbf6872ca0379c\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\Lenovo\.gradle\caches\transforms-3\9169574be361bd6b4dbbf6872ca0379c\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+94    </application>
+95
+96</manifest>
